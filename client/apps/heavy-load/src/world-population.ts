@@ -273,12 +273,12 @@ export function calculateRealmSettlements(
 
   // Calculate the relative position offset from the base CONFIG.startRealmId
   const relativeOffset = startRealmId - CONFIG.startRealmId;
-  
+
   // Calculate all required settlements
   for (let i = 0; i < count; i++) {
     // Use the relative position for settlement calculation
     const position = relativeOffset + i;
-    
+
     // Start with layer 2
     let layer = 2;
     let totalSpotsInPreviousLayers = 0;

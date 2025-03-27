@@ -6,7 +6,6 @@ export const SETTLEMENT_CENTER = 2147483646;
 export const SETTLEMENT_BASE_DISTANCE = 30;
 export const SETTLEMENT_SUBSEQUENT_DISTANCE = 10;
 
-
 /**
  * Calculates the total capacity of realms that can be settled up to a given layer
  * @param layer Maximum layer to calculate capacity for

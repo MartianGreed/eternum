@@ -291,7 +291,7 @@ export async function executeCreateMarketOrders(
         realmEntityId,
         ResourcesIds.Stone, // Resource type 1 (what realm gives)
         ResourcesIds.Lords, // Lords (what realm receives)
-        (1), // Max amount
+        1, // Max amount
         expiresAt,
       );
 
@@ -301,7 +301,7 @@ export async function executeCreateMarketOrders(
         realmEntityId,
         ResourcesIds.Silver, // Resource type 2 (what realm gives)
         ResourcesIds.Lords, // Lords (what realm receives)
-        (1), // Max amount
+        1, // Max amount
         expiresAt,
       );
 
@@ -311,7 +311,7 @@ export async function executeCreateMarketOrders(
         realmEntityId,
         ResourcesIds.Wood, // Resource type 3 (what realm gives)
         ResourcesIds.Lords, // Lords (what realm receives)
-        (1), // Max amount
+        1, // Max amount
         expiresAt,
       );
 
